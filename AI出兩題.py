@@ -35,7 +35,7 @@ data={
 
 # 第一題
 address = data["address"]
-print("地址：", f'{address["streetAddress"]}, {address["city"]}, {address["state"]} {address["postalCode"]}')
+print("地址：" f'{address["streetAddress"]}, {address["city"]}, {address["state"]} {address["postalCode"]}')
 
 # 第二題
 for phoneNumber in data["phoneNumber"]:
